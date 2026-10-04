@@ -15,7 +15,7 @@ function optionalEnv(key: string, fallback: string): string {
 }
 
 const DEFAULT_SOLANA_RPC_URL = "https://api.devnet.solana.com";
-const DEFAULT_SOLANA_PROGRAM_ID = "9Z6HNGC1wz6ukVCD3qNQnfFMFfNCfNPB6dG5k8fakHc";
+const DEFAULT_SOLANA_PROGRAM_ID = "9Z6HNGC1wz6ukVCD3qNqnfFMDfCffNPBz6dG5k8fakHc";
 const DEFAULT_AI_MODEL = "gemini-1.5-flash";
 const DEFAULT_AI_PROVIDER = "gemini";
 const DEFAULT_CORS_ORIGIN = "http://localhost:5173";
