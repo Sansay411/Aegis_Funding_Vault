@@ -29,7 +29,7 @@ app.use("/api/system", systemRoutes);
 // Initialize
 async function main() {
   // Init database
-  initDatabase();
+  await initDatabase();
   console.log("✓ Database initialized");
 
   const runtimeStatus = await ensureRiskAuthorityReady();
