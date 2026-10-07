@@ -1,4 +1,4 @@
-import { Buffer } from "buffer/";
+import { Buffer } from "buffer";
 (window as any).Buffer = Buffer;
 
 import React from "react";
